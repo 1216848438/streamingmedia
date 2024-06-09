@@ -14,7 +14,7 @@ label {
 
 label span {
     background-color: #FFFFFF;
-    display: blockl;
+    display: block;
     height: 2px;
     position: relative;
     transition: background-color .2s ease out;
@@ -83,6 +83,7 @@ button {
 
 h1{
     font-size: 1.25em;
+    color: #590242;
 }
 
 h2, h3 {
@@ -93,10 +94,26 @@ p, dl, dd {
     font-size: 1em;
 }
 
- footer p {
+footer h3 {
     font-size: .75em;
+    color: #590242;
  }
+
+ 
 
 body {
     margin: 0, auto;
+    background: #FFFFFF;
+}
+
+button:hover {
+    background-color: #020659;
+}
+.responsive-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.responsive-button {
+    display: flex;
 }
